@@ -156,7 +156,7 @@
           </a>
           <a
             class="navbar-item"
-            title="Admin Panel"
+            title="Admin Paneli"
             v-tooltip.bottom-start="'Admin Panel'"
             v-if="logged && admin"
             @click="gotoPage('/','admin')"
@@ -169,14 +169,14 @@
           <a
             class="navbar-item"
             title="Logout"
-            v-tooltip.bottom-start="'Logout'"
+            v-tooltip.bottom-start="'Çıkış'"
             @click="logout"
             v-if="logged"
            >
            <span class="icon">
             <i class="fas fa-sign-out-alt"></i>
           </span>
-          <span class="is-hidden-desktop">Logout</span>
+          <span class="is-hidden-desktop">Çıkış</span>
           </a>
           <a
             :class="ismobile ? 'navbar-item' : 'navbar-item is-hidden'"
