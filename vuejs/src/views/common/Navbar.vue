@@ -168,7 +168,7 @@
           </a>
           <a
             class="navbar-item"
-            title="Logout"
+            title="Çıkış"
             v-tooltip.bottom-start="'Çıkış'"
             @click="logout"
             v-if="logged"
