@@ -3,7 +3,7 @@
     <div class="container">
       <div class="navbar-brand">
         <div class="navbar-item nav-link">
-          <h3 class="title has-text-netflix is-3" v-tooltip.bottom-start="'Home'" @click="homeroute">
+          <h3 class="title has-text-netflix is-3" v-tooltip.bottom-start="'Ana Sayfa'" @click="homeroute">
             {{ currgd.name }}
           </h3>
         </div>
@@ -28,7 +28,7 @@
         <div class="navbar-start">
           <a
             class="navbar-item"
-            v-tooltip.bottom-start="'OTP Registration'"
+            v-tooltip.bottom-start="'OTP Kayıt'"
             v-if="!logged"
             @click="gotoPage('/otp/', 'register')"
            >
@@ -36,11 +36,11 @@
           </a>
           <a
             class="navbar-item"
-            v-tooltip.bottom-start="'Request Access'"
+            v-tooltip.bottom-start="'Erişim İzni'"
             v-if="!logged"
             @click="gotoPage('/request/user/', 'register')"
            >
-          <span>Request Access</span>
+          <span>Erişim İzni</span>
           </a>
           <a
             class="navbar-item"
@@ -72,7 +72,7 @@
           <div
             :class="ismobile ? gddropdown ? 'navbar-item has-dropdown is-active' : 'navbar-item has-dropdown' : 'navbar-item has-dropdown is-hoverable' "
            @click="ismobile ? gddropdown = !gddropdown : '' " v-if="!logged">
-            <a class="navbar-link" style="background-color: inherit;">Spaces</a>
+            <a class="navbar-link" style="background-color: inherit;">Sunucular</a>
             <div class="navbar-dropdown is-boxed">
               <a
                 class="navbar-item"
