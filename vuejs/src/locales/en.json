@@ -1,53 +1,53 @@
 {
   "_name": "🇬🇧English",
   "languages": "Languages",
-  "index": "Home",
-  "folder": "Folder",
+  "index": "Ana Sayfa",
+  "folder": "Klasör",
   "notify": {
     "title": "Notify"
   },
   "copy": {
-    "success": "Copy successful",
-    "error": "Copy failed"
+    "success": "Başarılı kopyalama",
+    "error": "Kopyalanamadı"
   },
   "list": {
     "view": {
-      "gridMode": "Grid view",
-      "listMode": "List view"
+      "gridMode": "Izgara görünümü",
+      "listMode": "Liste görünümü"
     },
-    "auth": "Directory encryption, please enter password",
+    "auth": "Dizin şifreleme, lütfen şifre girin",
     "title": {
-      "file": "File",
-      "moditime": "Modified Time",
-      "size": "Size",
-      "operation": "Actions"
+      "file": "Dosya",
+      "moditime": "Değiştirilme Zamanı",
+      "size": "Boyut",
+      "operation": "Hareketler"
     },
-    "loading": "Loading...",
+    "loading": "Yükleniyor...",
     "opt": {
-      "copy": "Copy link",
-      "newTab": "Open a new tab",
-      "download": "Download"
+      "copy": "Bağlantıyı kopyala",
+      "newTab": "Yeni bir sekme açın",
+      "download": "İndir"
     },
-    "total": "Total",
+    "total": "Toplam",
     "item": "item"
   },
   "search": {
-    "placeholder": "Search resources..."
+    "placeholder": "Kaynakları ara..."
   },
   "page": {
     "video": {
-        "play": "Play",
-        "download": "Download",
-        "link": "Download link"
+        "play": "Oyna",
+        "download": "İndir",
+        "link": "İndirme: {link"
     },
     "text": {
-      "loading": "Loading..."
+      "loading": "Yükleniyor..."
     }
   },
   "setting": {
     "clear": {
-      "text": "Clean cache",
-      "success": "Cache cleanup successful"
+      "text": "Önbelleği temizle",
+      "success": "Önbellek temizleme başarılı"
     }
   },
   "checkVersion": {
